@@ -3,22 +3,24 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 
-const IndexPage = () => (
+const CreativeDirector = () => (
   <Layout>
     <div
       style={{
-        padding: `50px 0 0 100px`,
+        margin: `50px 0 0 100px`,
         maxWidth: 960,
         fontSize: "15px",
+        // display: "flex",
+        // flexDirection: "column",
         fontStyle: "italic",
       }}
     >
       <p>DRAMA - Forever and a day</p>
-      <div style={{}}>
-        <Image slug="beats-1" />
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <Image />
       </div>
     </div>
   </Layout>
 )
 
-export default IndexPage
+export default CreativeDirector

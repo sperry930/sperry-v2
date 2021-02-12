@@ -16,7 +16,7 @@ const ContentPage = ({ data }) => {
         <div>
           {data.map((project, index) => {
             return (
-              <div key={index} style={{ margin: "50px" }}>
+              <div key={index} style={{ margin: "50px 0px" }}>
                 <div style={{ margin: "50px 0 20px" }}>{project.title}</div>
                 {project.content.map(image => {
                   console.warn(`image`, image)
@@ -24,7 +24,10 @@ const ContentPage = ({ data }) => {
                     <img
                       key={image.name}
                       alt={image.name}
-                      style={{ width: image.width, margin: "0" }}
+                      style={{
+                        width: `calc(${image.width} - 10px)`,
+                        margin: "0 5px",
+                      }}
                       src={"../" + image.name}
                     ></img>
                   )

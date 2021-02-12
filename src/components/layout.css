@@ -33,6 +33,10 @@ section,
 summary {
   display: block;
 }
+header {
+  font-family: "Open Sans";
+  letter-spacing: 3px;
+}
 audio,
 canvas,
 progress,

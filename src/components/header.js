@@ -1,6 +1,8 @@
 import { Link } from "gatsby"
 import React from "react"
 
+import "@fontsource/open-sans"
+
 const Header = () => (
   <header>
     <div

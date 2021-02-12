@@ -962,6 +962,11 @@
     ts-node "^9"
     tslib "^2"
 
+"@fontsource/open-sans@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.2.1.tgz#5c8763a91eb2d0e1a3a4ef61eca3743e4224e9e3"
+  integrity sha512-CfvS4yIrZxBA9FoITkceFUM3HS9MYty8qZJ/Jq1m4NRqQlJX7Jc8KV4k/APG1h16jdp9ilU6VmZbdLwPxXr7Yw==
+
 "@graphql-tools/batch-execute@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@graphql-tools/batch-execute/-/batch-execute-7.0.0.tgz#e79d11bd5b39f29172f6ec2eafa71103c6a6c85b"

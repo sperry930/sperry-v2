@@ -5,30 +5,57 @@ import Layout from "../components/layout"
 const Contact = () => (
   <Layout>
     <div
-      class="Info-column"
-      style={{ position: "fixed", margin: "300px auto 0" }}
+      style={{
+        maxWidth: 960,
+        marginTop: "200px",
+      }}
     >
-      <p>
-        <a href="scott@sperry.work">scott@sperry.work</a>
-      </p>
-      <p>
-        <a
-          href="https://www.instagram.com/s_p_e_r_r_y"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Instagram
-        </a>
-      </p>
-      <p>
-        <a
-          href="https://vimeo.com/sperrystuff"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Vimeo
-        </a>
-      </p>
+      <div>
+        <div style={{ display: "flex" }}>
+          <a
+            style={{ textDecoration: "none", color: "black", margin: "0 auto" }}
+            href="scott@sperry.work"
+          >
+            scott@sperry.work
+          </a>
+        </div>
+
+        <div style={{ display: "flex", marginTop: "100px" }}>
+          <div style={{ marginLeft: "auto" }}>
+            <a
+              rel="noreferrer"
+              href="https://www.instagram.com/s_p_e_r_r_y/"
+              target="_blank"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="#000">
+                <path d="M16.98 0a6.9 6.9 0 0 1 5.08 1.98A6.94 6.94 0 0 1 24 7.02v9.96c0 2.08-.68 3.87-1.98 5.13A7.14 7.14 0 0 1 16.94 24H7.06a7.06 7.06 0 0 1-5.03-1.89A6.96 6.96 0 0 1 0 16.94V7.02C0 2.8 2.8 0 7.02 0h9.96zm.05 2.23H7.06c-1.45 0-2.7.43-3.53 1.25a4.82 4.82 0 0 0-1.3 3.54v9.92c0 1.5.43 2.7 1.3 3.58a5 5 0 0 0 3.53 1.25h9.88a5 5 0 0 0 3.53-1.25 4.73 4.73 0 0 0 1.4-3.54V7.02a5 5 0 0 0-1.3-3.49 4.82 4.82 0 0 0-3.54-1.3zM12 5.76c3.39 0 6.2 2.8 6.2 6.2a6.2 6.2 0 0 1-12.4 0 6.2 6.2 0 0 1 6.2-6.2zm0 2.22a3.99 3.99 0 0 0-3.97 3.97A3.99 3.99 0 0 0 12 15.92a3.99 3.99 0 0 0 3.97-3.97A3.99 3.99 0 0 0 12 7.98zm6.44-3.77a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z"></path>
+              </svg>
+            </a>
+          </div>
+
+          <div>
+            <a
+              style={{ paddingLeft: "10px" }}
+              href="https://vimeo.com/sperrystuff"
+              target="_blank"
+            >
+              <svg viewBox="0 0 20.847 20.847" width="24" height="24">
+                <g>
+                  <path
+                    d="M17.811,2.018c2.017,0.053,3.026,1.198,3.036,3.438c0,0.147-0.005,0.3-0.013,0.457c-0.089,1.899-1.502,4.486-4.245,7.76
+           c-2.829,3.43-5.229,5.147-7.2,5.156c-1.226,0-2.244-1.05-3.061-3.151l-0.858-2.88L4.622,9.922C3.997,7.838,3.329,6.798,2.616,6.798
+           c-0.156,0-0.697,0.304-1.626,0.91L0,6.537l1.536-1.276l1.511-1.263C4.4,2.914,5.429,2.328,6.135,2.241
+           c0.094-0.01,0.188-0.013,0.284-0.013c1.449,0,2.354,1.041,2.709,3.124C9.326,6.54,9.49,7.506,9.623,8.248
+           C9.752,8.992,9.86,9.51,9.946,9.805c0.479,1.97,0.995,2.96,1.55,2.968c0.426,0,1.082-0.642,1.968-1.926
+           c0.866-1.319,1.332-2.296,1.392-2.932c0.019-0.129,0.026-0.25,0.026-0.362c0-0.861-0.474-1.29-1.418-1.29
+           c-0.479,0-0.99,0.102-1.537,0.299c0.98-3.021,2.864-4.534,5.65-4.544C17.655,2.018,17.732,2.018,17.811,2.018z"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </Layout>
 )

@@ -3,8 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 
 const ContentPage = ({ data }) => {
-  console.warn(`data`, data)
-
   return (
     <Layout>
       <div
@@ -19,14 +17,15 @@ const ContentPage = ({ data }) => {
           {data.map((project, index) => {
             return (
               <div key={index} style={{ margin: "50px" }}>
-                <div>{project.title}</div>
+                <div style={{ margin: "50px 0 20px" }}>{project.title}</div>
                 {project.content.map(image => {
+                  console.warn(`image`, image)
                   return (
                     <img
                       key={image.name}
                       alt={image.name}
                       style={{ width: image.width, margin: "0" }}
-                      src={image.name}
+                      src={"../" + image.name}
                     ></img>
                   )
                 })}

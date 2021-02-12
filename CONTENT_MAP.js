@@ -159,11 +159,6 @@ export default {
             name: "nike-11.webp",
             width: "50%",
           },
-          {
-            type: "image",
-            name: "nike-12.webp",
-            width: "50%",
-          },
         ],
       },
     ],

@@ -10,10 +10,6 @@ const Contact = () => (
           <h2>
             About <span class="Info-hidden">Scott Perry</span>
           </h2>
-          <p>
-            Scott is a Director and DP living in Brooklyn, NY. He currently
-            serves the Creative Director for the video department at The FADER
-          </p>
           <h2>Contact</h2>
           <p>
             <a href="scott@sperry.work">scott@sperry.work</a>

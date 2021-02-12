@@ -1,29 +1,28 @@
 import { Link } from "gatsby"
 import React from "react"
 
-const Header = ({}) => (
-  <header
-    style={{
-      position: `fixed`,
-    }}
-  >
+const Header = () => (
+  <header>
     <div
       style={{
-        margin: `0px 0 0 80px`,
-        maxWidth: 960,
+        position: "fixed",
+        top: "50px",
+        left: "75px",
+        margin: 0,
+        fontSize: "18px",
+        textTransform: "uppercase",
+        fontWeight: "bold",
       }}
     >
-      <div style={{ margin: 0, fontSize: "24px", textTransform: "uppercase" }}>
-        <Link
-          to="/"
-          style={{
-            color: `black`,
-            textDecoration: `none`,
-          }}
-        >
-          Scott Perry
-        </Link>
-      </div>
+      <Link
+        to="/"
+        style={{
+          color: `black`,
+          textDecoration: `none`,
+        }}
+      >
+        Scott Perry
+      </Link>
     </div>
   </header>
 )

@@ -1,24 +1,10 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
+import ContentPage from "../components/content-page"
+import CONTENT_MAP from "../../CONTENT_MAP"
 
-const IndexPage = () => (
-  <Layout>
-    <div
-      style={{
-        padding: `50px 0 0 100px`,
-        maxWidth: 960,
-        fontSize: "15px",
-        fontStyle: "italic",
-      }}
-    >
-      <p>DRAMA - Forever and a day</p>
-      <div style={{}}>
-        <Image slug="beats-1" />
-      </div>
-    </div>
-  </Layout>
-)
+const DIRECTOR_CONTENT = CONTENT_MAP.director.projects
 
-export default IndexPage
+const Director = () => <ContentPage data={DIRECTOR_CONTENT} />
+
+export default Director

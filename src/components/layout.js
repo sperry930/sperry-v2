@@ -14,20 +14,22 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <div>
-      <div style={{ position: "fixed", margin: `50px 0` }}>
+    <>
+      <div>
         <Header />
         <SideNav />
       </div>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-        }}
-      >
-        <main>{children}</main>
+      <div>
+        <div
+          style={{
+            margin: `0 auto`,
+            maxWidth: 960,
+          }}
+        >
+          <main>{children}</main>
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 

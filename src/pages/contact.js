@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 
 const Contact = () => (
   <Layout>
@@ -20,12 +19,20 @@ const Contact = () => (
             <a href="scott@sperry.work">scott@sperry.work</a>
           </p>
           <p>
-            <a href="https://www.instagram.com/s_p_e_r_r_y" target="_blank">
+            <a
+              href="https://www.instagram.com/s_p_e_r_r_y"
+              target="_blank"
+              rel="noreferrer"
+            >
               Instagram
             </a>
           </p>
           <p>
-            <a href="https://vimeo.com/sperrystuff" target="_blank">
+            <a
+              href="https://vimeo.com/sperrystuff"
+              target="_blank"
+              rel="noreferrer"
+            >
               Vimeo
             </a>
           </p>

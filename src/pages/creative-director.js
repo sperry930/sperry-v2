@@ -1,26 +1,10 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
+import ContentPage from "../components/content-page"
+import CONTENT_MAP from "../../CONTENT_MAP"
 
-const CreativeDirector = () => (
-  <Layout>
-    <div
-      style={{
-        margin: `50px 0 0 100px`,
-        maxWidth: 960,
-        fontSize: "15px",
-        // display: "flex",
-        // flexDirection: "column",
-        fontStyle: "italic",
-      }}
-    >
-      <p>DRAMA - Forever and a day</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-    </div>
-  </Layout>
-)
+const CREATIVE_DIRECTOR_CONTENT = CONTENT_MAP["creative-director"].projects
+
+const CreativeDirector = () => <ContentPage data={CREATIVE_DIRECTOR_CONTENT} />
 
 export default CreativeDirector

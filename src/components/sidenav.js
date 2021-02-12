@@ -4,9 +4,9 @@ import React from "react"
 const SideNav = () => (
   <div
     style={{
-      position: `fixed`,
-      margin: `80px 0 0 80px`,
-      maxWidth: 960,
+      position: "fixed",
+      top: "95px",
+      left: "75px",
       fontSize: "15px",
       display: "flex",
       flexDirection: "column",
@@ -16,23 +16,23 @@ const SideNav = () => (
     <Link
       to="/"
       style={{
+        marginBottom: "15px",
         color: `black`,
         textDecoration: `none`,
       }}
     >
       Director
     </Link>
-    <br />
     <Link
       to="/creative-director/"
       style={{
+        marginBottom: "15px",
         color: `black`,
         textDecoration: `none`,
       }}
     >
       Creative Director
     </Link>
-    <br />
     <Link
       to="/contact/"
       style={{

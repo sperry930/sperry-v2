@@ -18,17 +18,34 @@ const ContentPage = ({ data }) => {
             return (
               <div key={index} style={{ margin: "50px 0px" }}>
                 <div style={{ margin: "50px 0 20px" }}>{project.title}</div>
-                {project.content.map(image => {
-                  console.warn(`image`, image)
+                {project.content.map(imageOrVideo => {
+                  if (imageOrVideo.type === "video") {
+                    return (
+                      <video
+                        key={imageOrVideo.name}
+                        alt={imageOrVideo.name}
+                        style={{
+                          width: `calc(${imageOrVideo.width} - 10px)`,
+                          margin: "0 5px",
+                        }}
+                        src={"../" + imageOrVideo.name}
+                        preload="auto"
+                        autoPlay
+                        playsInline
+                        muted
+                        loop
+                      ></video>
+                    )
+                  }
                   return (
                     <img
-                      key={image.name}
-                      alt={image.name}
+                      key={imageOrVideo.name}
+                      alt={imageOrVideo.name}
                       style={{
-                        width: `calc(${image.width} - 10px)`,
+                        width: `calc(${imageOrVideo.width} - 10px)`,
                         margin: "0 5px",
                       }}
-                      src={"../" + image.name}
+                      src={"../" + imageOrVideo.name}
                     ></img>
                   )
                 })}

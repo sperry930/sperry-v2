@@ -35,6 +35,7 @@ const Contact = () => (
 
           <div>
             <a
+              rel="noreferrer"
               style={{ paddingLeft: "10px" }}
               href="https://vimeo.com/sperrystuff"
               target="_blank"

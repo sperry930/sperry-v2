@@ -30,9 +30,9 @@ export default {
             width: "50%",
           },
           {
-            type: "image",
-            name: "beats/beats-6.webp",
-            width: "50%",
+            type: "video",
+            name: "beats/intro.mp4",
+            width: "100%",
           },
         ],
       },

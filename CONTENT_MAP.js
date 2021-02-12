@@ -6,32 +6,32 @@ export default {
         content: [
           {
             type: "image",
-            name: "beats-1.webp",
+            name: "beats/beats-1.webp",
             width: "100%",
           },
           {
             type: "image",
-            name: "beats-2.webp",
+            name: "beats/beats-2.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "beats-3.webp",
+            name: "beats/beats-3.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "beats-4.webp",
+            name: "beats/beats-4.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "beats-5.webp",
+            name: "beats/beats-5.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "beats-6.webp",
+            name: "beats/beats-6.webp",
             width: "50%",
           },
         ],
@@ -41,62 +41,62 @@ export default {
         content: [
           {
             type: "image",
-            name: "drama-1.webp",
+            name: "drama/drama-1.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-2.webp",
+            name: "drama/drama-2.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-3.webp",
+            name: "drama/drama-3.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-4.webp",
+            name: "drama/drama-4.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-5.webp",
+            name: "drama/drama-5.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-6.webp",
+            name: "drama/drama-6.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-7.webp",
+            name: "drama/drama-7.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-8.webp",
+            name: "drama/drama-8.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-9.webp",
+            name: "drama/drama-9.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-10.webp",
+            name: "drama/drama-10.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-11.webp",
+            name: "drama/drama-11.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama-12.webp",
+            name: "drama/drama-12.webp",
             width: "50%",
           },
         ],
@@ -106,57 +106,57 @@ export default {
         content: [
           {
             type: "image",
-            name: "nike-1.webp",
+            name: "nike/nike-1.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-2.webp",
+            name: "nike/nike-2.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-3.webp",
+            name: "nike/nike-3.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-4.webp",
+            name: "nike/nike-4.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-5.webp",
+            name: "nike/nike-5.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-6.webp",
+            name: "nike/nike-6.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-7.webp",
+            name: "nike/nike-7.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-8.webp",
+            name: "nike/nike-8.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-9.webp",
+            name: "nike/nike-9.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-10.webp",
+            name: "nike/nike-10.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike-11.webp",
+            name: "nike/nike-11.webp",
             width: "50%",
           },
         ],
@@ -170,27 +170,27 @@ export default {
         content: [
           {
             type: "image",
-            name: "omar-1.webp",
+            name: "omar/omar-1.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "omar-2.webp",
+            name: "omar/omar-2.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "omar-3.webp",
+            name: "omar/omar-3.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "omar-4.webp",
+            name: "omar/omar-4.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "omar-5.webp",
+            name: "omar/omar-5.webp",
             width: "50%",
           },
         ],
@@ -200,37 +200,37 @@ export default {
         content: [
           {
             type: "image",
-            name: "vogue-1.webp",
+            name: "vogue/vogue-1.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "vogue-2.webp",
+            name: "vogue/vogue-2.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "vogue-3.webp",
+            name: "vogue/vogue-3.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "vogue-4.webp",
+            name: "vogue/vogue-4.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "vogue-5.webp",
+            name: "vogue/vogue-5.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "vogue-6.webp",
+            name: "vogue/vogue-6.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "vogue-7.webp",
+            name: "vogue/vogue-7.webp",
             width: "50%",
           },
         ],
@@ -240,27 +240,27 @@ export default {
         content: [
           {
             type: "image",
-            name: "wet-1.webp",
+            name: "wet/wet-1.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "wet-2.webp",
+            name: "wet/wet-2.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "wet-3.webp",
+            name: "wet/wet-3.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "wet-4.webp",
+            name: "wet/wet-4.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "wet-5.webp",
+            name: "wet/wet-5.webp",
             width: "50%",
           },
         ],

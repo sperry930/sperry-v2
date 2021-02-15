@@ -6,27 +6,27 @@ export default {
         content: [
           {
             type: "image",
-            name: "beats/beats-1.webp",
+            name: "nike/nike-9.webp",
             width: "100%",
           },
           {
             type: "image",
-            name: "beats/beats-2.webp",
+            name: "nike/nike-5.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "beats/beats-3.webp",
+            name: "nike/nike-8.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "beats/beats-4.webp",
+            name: "nike/nike-3.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "beats/beats-5.webp",
+            name: "nike/nike-4.webp",
             width: "50%",
           },
           {

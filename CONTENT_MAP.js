@@ -32,7 +32,7 @@ export default {
         ],
       },
       {
-        title: "DRAMA - abcdefg",
+        title: "DRAMA - Forever and a Day",
         content: [
           {
             type: "image",
@@ -97,7 +97,7 @@ export default {
         ],
       },
       {
-        title: "nike - awfagbsakbvfw",
+        title: "Omar Apollo - Years to Come",
         content: [
           {
             type: "image",

@@ -15,14 +15,14 @@ export default {
             width: "50%",
           },
           {
-            type: "video",
-            name: "beats/intro.mp4",
-            width: "100%",
-          },
-          {
              type: "image",
             name: "nike/nike-6.webp",
             width: "50%",
+          },
+          {
+            type: "video",
+            name: "beats/intro.mp4",
+            width: "100%",   
           },
           {
             type: "image",

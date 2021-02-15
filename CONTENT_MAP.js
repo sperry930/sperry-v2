@@ -11,21 +11,6 @@ export default {
           },
           {
             type: "image",
-            name: "nike/nike-5.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-8.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-3.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
             name: "nike/nike-4.webp",
             width: "50%",
           },
@@ -33,6 +18,16 @@ export default {
             type: "video",
             name: "beats/intro.mp4",
             width: "100%",
+          },
+          {
+             type: "image",
+            name: "nike/nike-.webp",
+            width: "50%",
+          },
+          {
+            type: "image",
+            name: "nike/nike-3.webp",
+            width: "50%",
           },
         ],
       },

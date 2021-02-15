@@ -2,7 +2,7 @@ export default {
   director: {
     projects: [
       {
-        title: "BEATS - abcdefg",
+        title: "NIKE - Queens Lead",
         content: [
           {
             type: "image",

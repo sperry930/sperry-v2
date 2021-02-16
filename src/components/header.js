@@ -7,7 +7,6 @@ const Header = ({ padding }) => (
   <header>
     <div
       style={{
-        textAlign: "center",
         fontSize: "18px",
         textTransform: "uppercase",
         fontWeight: "bold",

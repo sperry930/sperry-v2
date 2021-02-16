@@ -6,7 +6,7 @@ import SideNav from "./sidenav"
 import "./layout.css"
 
 const getHeaderSpacing = () => {
-  if (window && window.innerWidth) {
+  if (typeof window !== `undefined` && window.innerWidth) {
     if (window.innerWidth < 720) {
       return "10px"
     }
@@ -16,7 +16,7 @@ const getHeaderSpacing = () => {
 }
 
 const getPadding = () => {
-  if (window && window.innerWidth) {
+  if (typeof window !== `undefined` && window.innerWidth) {
     if (window.innerWidth < 720) {
       return "5px"
     }

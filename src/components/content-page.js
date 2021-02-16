@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 
 const getContentMarginTop = () => {
-  if (window && window.innerWidth) {
+  if (typeof window !== `undefined` && window.innerWidth) {
     if (window.innerWidth < 800) {
       return "50px"
     }

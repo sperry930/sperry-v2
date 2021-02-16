@@ -2,13 +2,27 @@ import React from "react"
 
 import Layout from "../components/layout"
 
+const getContentMarginTop = () => {
+  if (window && window.innerWidth) {
+    if (window.innerWidth < 800) {
+      return "50px"
+    }
+
+    if (window.innerWidth > 800 && window.innerWidth < 960) {
+      return "100px"
+    }
+  }
+
+  return "150px"
+}
+
 const ContentPage = ({ data }) => {
+  console.warn(`getContentMarginTop()`, getContentMarginTop())
   return (
     <Layout>
       <div
         style={{
-          maxWidth: 960,
-          marginTop: "200px",
+          marginTop: getContentMarginTop(),
           fontSize: "15px",
           fontStyle: "italic",
         }}
@@ -17,7 +31,7 @@ const ContentPage = ({ data }) => {
           {data.map((project, index) => {
             return (
               <div key={index} style={{ margin: "50px 0px" }}>
-                <div style={{ margin: "50px 0 20px" }}>{project.title}</div>
+                <div style={{ margin: "50px 5px 20px" }}>{project.title}</div>
                 {project.content.map(imageOrVideo => {
                   if (imageOrVideo.type === "video") {
                     return (
@@ -59,3 +73,8 @@ const ContentPage = ({ data }) => {
 }
 
 export default ContentPage
+
+/*
+                      <iframe src="https://player.vimeo.com/video/329862491" width="640" height="393" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+*/

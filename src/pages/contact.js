@@ -6,7 +6,6 @@ const Contact = () => (
   <Layout>
     <div
       style={{
-        maxWidth: 960,
         marginTop: "200px",
       }}
     >
@@ -20,7 +19,7 @@ const Contact = () => (
           </a>
         </div>
 
-        <div style={{ display: "flex", marginTop: "100px" }}>
+        <div style={{ display: "flex", margin: "150px 10px 0" }}>
           <div style={{ marginLeft: "auto" }}>
             <a
               rel="noreferrer"

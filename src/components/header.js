@@ -3,17 +3,15 @@ import React from "react"
 
 import "@fontsource/open-sans"
 
-const Header = () => (
+const Header = ({ padding }) => (
   <header>
     <div
       style={{
-        position: "fixed",
-        top: "50px",
-        left: "75px",
-        margin: 0,
+        textAlign: "center",
         fontSize: "18px",
         textTransform: "uppercase",
         fontWeight: "bold",
+        padding,
       }}
     >
       <Link

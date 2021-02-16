@@ -19,7 +19,11 @@ function getStyleForPath(activePath, tabType) {
 
 const SideNav = ({ padding }) => {
   let activePath = "/"
-  if (window && window.location && window.location.pathname) {
+  if (
+    typeof window !== "undefined" &&
+    window.location &&
+    window.location.pathname
+  ) {
     activePath = window.location.pathname
   }
 

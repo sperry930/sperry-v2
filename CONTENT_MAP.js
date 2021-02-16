@@ -2,42 +2,37 @@ export default {
   director: {
     projects: [
       {
-        title: "BEATS - abcdefg",
+        title: "NIKE - Queens Lead",
         content: [
           {
             type: "image",
-            name: "beats/beats-1.webp",
+            name: "nike/nike-9.webp",
             width: "100%",
           },
           {
             type: "image",
-            name: "beats/beats-2.webp",
+            name: "nike/nike-4.webp",
             width: "50%",
           },
           {
-            type: "image",
-            name: "beats/beats-3.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "beats/beats-4.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "beats/beats-5.webp",
+             type: "image",
+            name: "nike/nike-6.webp",
             width: "50%",
           },
           {
             type: "video",
             name: "beats/intro.mp4",
-            width: "100%",
+            width: "100%",   
+          },
+          {
+            type: "image",
+            name: "nike/nike-3.webp",
+            width: "50%",
           },
         ],
       },
       {
-        title: "DRAMA - abcdefg",
+        title: "DRAMA - Forever and a Day",
         content: [
           {
             type: "image",
@@ -102,7 +97,7 @@ export default {
         ],
       },
       {
-        title: "nike - awfagbsakbvfw",
+        title: "Omar Apollo - Years to Come",
         content: [
           {
             type: "image",

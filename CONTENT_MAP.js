@@ -50,8 +50,8 @@ export default {
             width: "50%",
           },
           {
-            type: "image",
-            name: "drama/drama-8.webp",
+            type: "embed",
+            name: "https://player.vimeo.com/video/412055245",
             width: "100%",
           },
           {

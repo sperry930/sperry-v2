@@ -16,17 +16,22 @@ export default {
           },
           {
             type: "image",
-            name: "nike/nike-6.webp",
+            name: "nike/nike-8.webp",
             width: "50%",
           },
           {
-            type: "video",
-            name: "beats/intro.mp4",
+            type: "embed",
+            name: "https://player.vimeo.com/387734408",
             width: "100%",
           },
           {
             type: "image",
-            name: "nike/nike-3.webp",
+            name: "nike/nike-6.webp",
+            width: "50%",
+          },
+          {
+            type: "image",
+            name: "nike/nike-2.webp",
             width: "50%",
           },
         ],

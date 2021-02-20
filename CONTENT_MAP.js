@@ -141,6 +141,26 @@ export default {
           },
         ],
       },
+      {
+        title: "Wet - 11 Hours",
+        content: [
+          {
+            type: "embed",
+            name: "https://player.vimeo.com/video/330498404",
+            width: "100%",
+          },
+          {
+            type: "image",
+            name: "wet/wet-3.webp",
+            width: "50%",
+          },
+          {
+            type: "image",
+            name: "wet/wet-4.webp",
+            width: "50%",
+          },
+        ],
+      },
     ],
   },
   "creative-director": {

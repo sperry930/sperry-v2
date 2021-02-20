@@ -70,58 +70,23 @@ export default {
         title: "Omar Apollo - Years to Come",
         content: [
           {
+            type: "embed",
+            name: "https://player.vimeo.com/video/329842822",
+            width: "100%",
+          },
+          {
             type: "image",
-            name: "nike/nike-1.webp",
+            name: "omar/omar-1.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike/nike-2.webp",
+            name: "omar/omar-4.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "nike/nike-3.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-4.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-5.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-6.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-7.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-8.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-9.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-10.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "nike/nike-11.webp",
+            name: "omar/omar-5.webp",
             width: "50%",
           },
         ],

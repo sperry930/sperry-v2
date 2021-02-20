@@ -56,12 +56,12 @@ export default {
           },
           {
             type: "image",
-            name: "drama/drama-4.webp",
+            name: "drama/drama-8.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama/drama-5.webp",
+            name: "drama/drama-7.webp",
             width: "50%",
           },
         ],

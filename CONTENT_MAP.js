@@ -46,13 +46,13 @@ export default {
           },
           {
             type: "image",
-            name: "drama/drama-2.webp",
+            name: "drama/drama-10.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "drama/drama-3.webp",
-            width: "50%",
+            name: "drama/drama-8.webp",
+            width: "100%",
           },
           {
             type: "image",
@@ -86,11 +86,6 @@ export default {
           },
           {
             type: "image",
-            name: "drama/drama-10.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
             name: "drama/drama-11.webp",
             width: "50%",
           },
@@ -102,11 +97,6 @@ export default {
           {
             type: "embed",
             name: "https://player.vimeo.com/video/329862491",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "drama/drama-12.webp",
             width: "50%",
           },
           {

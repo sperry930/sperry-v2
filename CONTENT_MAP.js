@@ -168,6 +168,7 @@ export default {
       },
     ],
   },
+}
   "creative-director": {
     projects: [
       {

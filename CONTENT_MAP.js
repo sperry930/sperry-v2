@@ -161,7 +161,7 @@ export default {
           },
           {
             type: "image",
-            name: "wet/wet_2.gif",
+            name: "wet/wet_6.gif",
             width: "100%",
           },
         ],

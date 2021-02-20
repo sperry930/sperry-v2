@@ -79,31 +79,6 @@ export default {
             name: "drama/drama-8.webp",
             width: "50%",
           },
-          {
-            type: "image",
-            name: "drama/drama-9.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "drama/drama-11.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "drama/drama-12.webp",
-            width: "50%",
-          },
-          {
-            type: "embed",
-            name: "https://player.vimeo.com/video/329862491",
-            width: "50%",
-          },
-          {
-            type: "embed",
-            name: "https://player.vimeo.com/video/333018949",
-            width: "100%",
-          },
         ],
       },
       {

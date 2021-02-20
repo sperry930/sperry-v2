@@ -21,7 +21,7 @@ export default {
           },
           {
             type: "embed",
-            name: "https://player.vimeo.com/387734408",
+            name: "https://player.vimeo.com/video/387734408",
             width: "100%",
           },
           {

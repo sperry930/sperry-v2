@@ -41,7 +41,7 @@ export default {
         content: [
           {
             type: "image",
-            name: "drama/drama-1.webp",
+            name: "drama/drama_1.gif",
             width: "50%",
           },
           {

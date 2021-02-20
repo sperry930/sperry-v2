@@ -99,6 +99,26 @@ export default {
             name: "https://player.vimeo.com/video/390868168",
             width: "100%",
           },
+          {
+            type: "image",
+            name: "vogue/vogue-2.webp",
+            width: "50%",
+          },
+          {
+            type: "image",
+            name: "vogue/vogue-8.webp",
+            width: "50%",
+          },
+          {
+            type: "image",
+            name: "vogue/vogue-9.webp",
+            width: "100%",
+          },
+          {
+            type: "image",
+            name: "vogue/vogue-10.webp",
+            width: "100%",
+          },
         ],
       },
     ],

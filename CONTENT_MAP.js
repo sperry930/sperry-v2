@@ -16,7 +16,7 @@ export default {
           },
           {
             type: "image",
-            name: "nike/nike-12.webp",
+            name: "nike/nike-13.webp",
             width: "50%",
           },
           {

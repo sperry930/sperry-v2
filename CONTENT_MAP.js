@@ -114,11 +114,6 @@ export default {
             name: "vogue/vogue-9.webp",
             width: "100%",
           },
-          {
-            type: "image",
-            name: "vogue/vogue-10.webp",
-            width: "100%",
-          },
         ],
       },
     ],

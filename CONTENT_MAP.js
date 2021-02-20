@@ -116,6 +116,31 @@ export default {
           },
         ],
       },
+      {
+        title: "BEATS BY DRE - Homegrown",
+        content: [
+          {
+            type: "image",
+            name: "beats/beats-2.webp",
+            width: "100%",
+          },
+          {
+            type: "image",
+            name: "beats/beats-3.webp",
+            width: "50%",
+          },
+          {
+            type: "embed",
+            name: "https://player.vimeo.com/video/333018949",
+            width: "100%",
+          },
+          {
+            type: "image",
+            name: "vogue/vogue-9.webp",
+            width: "100%",
+          },
+        ],
+      },
     ],
   },
   "creative-director": {

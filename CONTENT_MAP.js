@@ -64,21 +64,6 @@ export default {
             name: "drama/drama-5.webp",
             width: "50%",
           },
-          {
-            type: "image",
-            name: "drama/drama-6.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "drama/drama-7.webp",
-            width: "50%",
-          },
-          {
-            type: "image",
-            name: "drama/drama-8.webp",
-            width: "50%",
-          },
         ],
       },
       {

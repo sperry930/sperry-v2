@@ -101,7 +101,7 @@ export default {
           },
           {
             type: "image",
-            name: "vogue/vogue_1.webp",
+            name: "vogue/vogue_1.gif",
             width: "50%",
           },
           {

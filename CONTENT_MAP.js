@@ -91,6 +91,16 @@ export default {
           },
         ],
       },
+      {
+        title: "VOGUE - Drinks On Us",
+        content: [
+          {
+            type: "embed",
+            name: "https://player.vimeo.com/video/390868168",
+            width: "100%",
+          },
+        ],
+      },
     ],
   },
   "creative-director": {

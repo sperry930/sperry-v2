@@ -159,11 +159,6 @@ export default {
             name: "wet/wet-4.webp",
             width: "50%",
           },
-          {
-            type: "image",
-            name: "wet/wet_6.gif",
-            width: "100%",
-          },
         ],
       },
     ],

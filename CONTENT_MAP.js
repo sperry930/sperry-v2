@@ -86,7 +86,7 @@ export default {
           },
           {
             type: "image",
-            name: "omar/omar-6.webp",
+            name: "omar/omar-7.webp",
             width: "100%",
           },
         ],

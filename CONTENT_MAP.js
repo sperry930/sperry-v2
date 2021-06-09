@@ -101,17 +101,17 @@ export default {
           },
           {
             type: "image",
-            name: "omar/dap-1.webp",
+            name: "wet/dap-1.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "omar/dap-4.webp",
+            name: "wet/dap-4.webp",
             width: "50%",
           },
           {
             type: "image",
-            name: "omar/dap-2.webp",
+            name: "wet/dap-2.webp",
             width: "100%",
         title: "VOGUE - Drinks On Us",
         content: [

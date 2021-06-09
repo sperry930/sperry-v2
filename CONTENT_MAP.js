@@ -92,6 +92,27 @@ export default {
         ],
       },
       {
+        title: "Dapper Dan and the COVID-19 Vaccines",
+        content: [
+          {
+            type: "embed",
+            name: "https://player.vimeo.com/video/534551768",
+            width: "100%",
+          },
+          {
+            type: "image",
+            name: "omar/dap-1.webp",
+            width: "50%",
+          },
+          {
+            type: "image",
+            name: "omar/dap-4.webp",
+            width: "50%",
+          },
+          {
+            type: "image",
+            name: "omar/dap-2.webp",
+            width: "100%",
         title: "VOGUE - Drinks On Us",
         content: [
           {

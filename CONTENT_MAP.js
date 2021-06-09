@@ -113,6 +113,10 @@ export default {
             type: "image",
             name: "wet/dap-2.webp",
             width: "100%",
+           },
+        ],
+      },
+      {
         title: "VOGUE - Drinks On Us",
         content: [
           {
